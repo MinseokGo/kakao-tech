@@ -41,13 +41,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TakeTransTest">
-    <configuration name="BirthdayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10.BirthdayTest" />
+  <component name="RunManager" selected="Application.CompanyTest">
+    <configuration name="CompanyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch18.CompanyTest" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10.*" />
+          <option name="PATTERN" value="ch18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch16.EmployeeTest" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch09.SubjectTest" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TakeTransTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch14.TakeTransTest" />
       <module name="main" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompanyTest" />
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.TakeTransTest" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.MakeReportTest" />
-        <item itemvalue="Application.BirthdayTest" />
-        <item itemvalue="Application.SubjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +128,8 @@
       <workItem from="1681218299922" duration="600000" />
       <workItem from="1681285340406" duration="8753000" />
       <workItem from="1681390474515" duration="2934000" />
-      <workItem from="1681548302045" duration="4714000" />
+      <workItem from="1681548302045" duration="6099000" />
+      <workItem from="1681558843581" duration="4081000" />
     </task>
     <servers />
   </component>
